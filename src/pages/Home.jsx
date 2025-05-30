@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import pic1 from '../assets/pic1.jpg'; // Background image
 import pic2 from '../assets/pic2.jpg'; // Profile image
 
@@ -31,12 +32,13 @@ export default function Home() {
         </p>
 
         {/* CTA */}
-        <a
-          href="/projects"
-          className="inline-block bg-[#E64833] text-white px-6 py-3 rounded-full font-semibold shadow-md hover:bg-[#c53c29] transition"
-        >
-          View My Work
-        </a>
+        <Link
+            to="/projects"
+     className="inline-block bg-[#E64833] text-white px-6 py-3 rounded-full font-semibold shadow-md hover:bg-[#c53c29] transition"
+    >
+    View My Work
+        </Link>
+
 
         {/* Features */}
         <div className="mt-12 grid gap-6 md:grid-cols-3 text-center">
