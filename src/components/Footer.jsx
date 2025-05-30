@@ -7,13 +7,13 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Logo / Name */}
         <div className="text-xl font-semibold tracking-wide">
-          © {new Date().getFullYear()} Your Name
+          © {new Date().getFullYear()} David Moenga
         </div>
 
         {/* Social Icons */}
         <div className="flex space-x-6 text-2xl">
           <a
-            href="https://www.linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/David Moenga"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#E64833] transition"
@@ -21,7 +21,7 @@ export default function Footer() {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/Davin-01"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#E64833] transition"
@@ -29,7 +29,7 @@ export default function Footer() {
             <FaGithub />
           </a>
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:moengadavid90@gmail.com"
             className="hover:text-[#E64833] transition"
           >
             <FaEnvelope />
